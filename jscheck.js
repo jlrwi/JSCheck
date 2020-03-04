@@ -18,7 +18,7 @@
     string, stringify, summary, time_limit, total, type, verdict, wun_of
 */
 
-import fulfill from "./fulfill.js";
+import fulfill from "@jlrwi/fulfill";
 
 function resolve(value, ...rest) {
 
@@ -637,10 +637,16 @@ export default Object.freeze(function jsc_constructor() {
         }
     }
 
-    function claim(name, predicate, signature, classifier) {
-
+    function claim (config) {
 // A function is deposited in the set of all claims.
 
+        let {
+            name,
+            predicate,
+            signature,
+            classifier
+        } = config;
+        
         if (!Array.isArray(signature)) {
             signature = [signature];
         }
@@ -683,7 +689,7 @@ export default Object.freeze(function jsc_constructor() {
 // arguments. The predicate must use the verdict callback to signal the result
 // of the case.
 
-            return predicate(verdict, ...args);
+            return predicate (verdict) (...args);
         }
         all_claims.push(the_claim);
     }

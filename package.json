@@ -1,0 +1,21 @@
+{
+  "name": "@jlrwi/jscheck",
+  "version": "1.0.0",
+  "description": "Douglas Crockford's testing tool",
+  "main": "./jscheck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlrwi/JSCheck.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlrwi/JSCheck/issues"
+  },
+  "homepage": "https://github.com/jlrwi/JSCheck#readme",
+  "dependencies": {},
+  "type": "module"
+}
