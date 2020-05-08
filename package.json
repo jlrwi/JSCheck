@@ -16,6 +16,8 @@
     "url": "https://github.com/jlrwi/JSCheck/issues"
   },
   "homepage": "https://github.com/jlrwi/JSCheck#readme",
-  "dependencies": {},
+  "dependencies": {
+    "fulfill": "*"
+  },
   "type": "module"
 }

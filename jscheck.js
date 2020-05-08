@@ -646,7 +646,7 @@ export default Object.freeze(function jsc_constructor() {
             signature,
             classifier
         } = config;
-        
+
         if (!Array.isArray(signature)) {
             signature = [signature];
         }
