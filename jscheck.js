@@ -495,6 +495,7 @@ export default Object.freeze(function jsc_constructor() {
     let all_claims = [];
 
     function check(configuration) {
+
         let the_claims = all_claims;
         all_claims = [];
         let nr_trials = (
@@ -637,15 +638,8 @@ export default Object.freeze(function jsc_constructor() {
         }
     }
 
-    function claim (config) {
+    function claim ({name, predicate, signature, classifier}) {
 // A function is deposited in the set of all claims.
-
-        let {
-            name,
-            predicate,
-            signature,
-            classifier
-        } = config;
 
         if (!Array.isArray(signature)) {
             signature = [signature];
