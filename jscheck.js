@@ -1,6 +1,7 @@
 // jscheck.js
 // Douglas Crockford
 // 2018-09-05
+// Modified by Jonathan Reimer, 2020-11-24
 
 // Public Domain
 
@@ -638,6 +639,7 @@ export default Object.freeze(function jsc_constructor() {
         }
     }
 
+// MOD: take arguments as an object
     function claim ({name, predicate, signature, classifier}) {
 // A function is deposited in the set of all claims.
 
@@ -683,6 +685,7 @@ export default Object.freeze(function jsc_constructor() {
 // arguments. The predicate must use the verdict callback to signal the result
 // of the case.
 
+//MOD: predicate calls are curried
             return predicate (verdict) (...args);
         }
         all_claims.push(the_claim);

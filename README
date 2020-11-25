@@ -1,6 +1,7 @@
 jscheck.js
 Douglas Crockford
 2012-04-24
+Modified by Jonathan Reimer, 2020-11-24
 
 Public Domain
 
@@ -21,3 +22,7 @@ All of JSCheck can be loaded from a small file called jscheck.js.
 
 The source is available at https://github.com/douglascrockford/JSCheck.
 The documentation is available at https://www.crockford.com/jscheck.html.
+
+Note: this lightly modified version differs in two respects:
+1. Calls to the claim function take an object rather than separate arguments.
+2. Calls to the predicate are curried as in: predicate (verdict) (args)
