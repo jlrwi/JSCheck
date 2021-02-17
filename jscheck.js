@@ -640,7 +640,7 @@ export default Object.freeze(function jsc_constructor() {
     }
 
 // MOD: take arguments as an object
-    function claim ({name, predicate, signature, classifier}) {
+    function claim({name, predicate, signature, classifier}) {
 // A function is deposited in the set of all claims.
 
         if (!Array.isArray(signature)) {
@@ -686,7 +686,7 @@ export default Object.freeze(function jsc_constructor() {
 // of the case.
 
 //MOD: predicate calls are curried
-            return predicate (verdict) (...args);
+            return predicate(verdict)(...args);
         }
         all_claims.push(the_claim);
     }

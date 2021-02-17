@@ -1,6 +1,6 @@
 {
   "name": "@jlrwi/jscheck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Douglas Crockford's testing tool",
   "main": "./jscheck.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jlrwi/JSCheck#readme",
   "dependencies": {
-    "fulfill": "*"
+    "@jlrwi/fulfill": "*"
   },
   "type": "module"
 }
