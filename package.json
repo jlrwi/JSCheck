@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jlrwi/JSCheck#readme",
   "dependencies": {
-    "@jlrwi/fulfill": "file:../fulfill"
+    "@jlrwi/fulfill": "github:jlrwi/fulfill"
   },
   "type": "module"
 }
