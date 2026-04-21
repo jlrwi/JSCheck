@@ -1,6 +1,6 @@
 {
   "name": "@jlrwi/jscheck",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Douglas Crockford's testing tool",
   "main": "./jscheck.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jlrwi/JSCheck.git"
+    "url": "git+https://github.com/jlrwi/jscheck.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jlrwi/JSCheck/issues"
+    "url": "https://github.com/jlrwi/jscheck/issues"
   },
-  "homepage": "https://github.com/jlrwi/JSCheck#readme",
+  "homepage": "https://github.com/jlrwi/jscheck#readme",
   "dependencies": {
     "@jlrwi/fulfill": "github:jlrwi/fulfill"
   },
