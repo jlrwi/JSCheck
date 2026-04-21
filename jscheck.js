@@ -19,7 +19,7 @@
     string, stringify, summary, time_limit, total, type, verdict, wun_of
 */
 
-import fulfill from "@jlrwi/fulfill.js";
+import fulfill from "@jlrwi/fulfill";
 
 let random = Math.random;
 
